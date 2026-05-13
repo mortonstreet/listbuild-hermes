@@ -1,0 +1,927 @@
+{
+  "data": {
+    "cost": 0.0064,
+    "element": {
+      "about": "I build software that turns messy, real-world problems into working systems.\n\nA lot of my work involves figuring things out that aren’t obvious up front, pulling in data where needed, and building whatever pieces are required to make something actually work. Sometimes that’s pipelines, sometimes automation, sometimes full products.\n\nI use AI as part of the system, not just a layer on top. The focus is always on building things that are reliable and actually get used.",
+      "aboutProfile": [
+        {
+          "property": "Joined",
+          "value": "August 2013"
+        },
+        {
+          "property": "Contact information",
+          "value": "Updated over 1 year ago"
+        },
+        {
+          "property": "Profile photo",
+          "value": "Updated less than 3 months ago"
+        },
+        {
+          "info": "Apple: Verified using work email",
+          "property": "Workplace",
+          "value": "Over 2 years ago"
+        }
+      ],
+      "causes": [],
+      "certifications": [],
+      "composeOptionType": "UPSELL",
+      "connectionsCount": 4871,
+      "courses": [],
+      "coverPicture": {
+        "sizes": [
+          {
+            "expiresAt": 1779321600000,
+            "height": 349,
+            "url": "https://media.licdn.com/dms/image/v2/D4E16AQEGE4HoWbEb7w/profile-displaybackgroundimage-shrink_350_1400/B4EZydhPbmGkAY-/0/1772169263770?e=1779321600&v=beta&t=tUmsw8ckfLdQ1_S7hkRllYlFgT3BTb97DCcl21Bo73Q",
+            "width": 1400
+          },
+          {
+            "expiresAt": 1779321600000,
+            "height": 199,
+            "url": "https://media.licdn.com/dms/image/v2/D4E16AQEGE4HoWbEb7w/profile-displaybackgroundimage-shrink_200_800/B4EZydhPbmGkAU-/0/1772169263770?e=1779321600&v=beta&t=fm3OvvwBHQ3mU036TQBp7ayWUKdJHnVcrVPt33L74Tk",
+            "width": 800
+          }
+        ],
+        "url": "https://media.licdn.com/dms/image/v2/D4E16AQEGE4HoWbEb7w/profile-displaybackgroundimage-shrink_350_1400/B4EZydhPbmGkAY-/0/1772169263770?e=1779321600&v=beta&t=tUmsw8ckfLdQ1_S7hkRllYlFgT3BTb97DCcl21Bo73Q"
+      },
+      "currentPosition": [
+        {
+          "companyId": "4367317",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/wearerunwise/",
+          "companyLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_400_400/B4EZWCdcLBH0AY-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=PxciwJvQQ0OGweohsOSkF6V6-sLAtQ0BhE6EYKdtWgQ",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_200_200/B4EZWCdcLBH0AI-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=hZrNGo0kF3rGtQ4ILjEvJLJ8GHe9leI36dQHqGKJzyg",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_100_100/B4EZWCdcLBH0AQ-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=MTAVjNUBTkp308aou9rC4v_uYFejpG7Buv_1clTzwlc",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_400_400/B4EZWCdcLBH0AY-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=PxciwJvQQ0OGweohsOSkF6V6-sLAtQ0BhE6EYKdtWgQ"
+          },
+          "companyName": "Runwise",
+          "companyUniversalName": "wearerunwise",
+          "description": "Built and shipped core products end to end, turning complex problems into simple, reliable systems.\n\nDeveloped internal sales systems by integrating external platforms and data sources, including AI-powered prospecting and research workflows.\n\nLed the redesign of the core application, improving usability and reducing support overhead.\n\nImproved developer velocity and product reliability through AI-driven tools and modern engineering practices.",
+          "duration": "3 yrs 1 mo",
+          "employmentType": "Full-time",
+          "endDate": {
+            "text": "Present"
+          },
+          "location": "United States",
+          "position": "Senior Software Engineer",
+          "skills": [
+            "Next.js",
+            "React.js",
+            "TypeScript",
+            "Anthropic Claude",
+            "Claude Skills",
+            "Go (Programming Language)"
+          ],
+          "startDate": {
+            "month": "May",
+            "text": "May 2023",
+            "year": 2023
+          },
+          "workplaceType": "Remote"
+        }
+      ],
+      "education": [
+        {
+          "degree": "Full Stack Web Development",
+          "description": "Ironhack is an immersive bootcamp with locations all over the globe, offering 9-week courses in Full Stack Web Development and UX/UI Design. (400+ hours)\n\nTechnologies: JavaScript, React.js, Node.js, Express.js, MongoDB, HTML5 & CSS3",
+          "endDate": {
+            "text": ""
+          },
+          "fieldOfStudy": null,
+          "schoolId": "3297892",
+          "schoolLinkedinUrl": "https://www.linkedin.com/company/3297892/",
+          "schoolLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_400_400/company-logo_400_400/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=xfiBF36BCNofLhsnNCvrlxdTn0LZQWVMan3tB4HR61c",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_200_200/company-logo_200_200/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=xYtX9nTOUxDXv-MWOawre3yoRr3hiJ6SOURojZV0_UA",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_100_100/company-logo_100_100/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=TLwnrrih1zTt-4MCi8cWm8jOIpUn3HVCDpHnWVZ_XBA",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_400_400/company-logo_400_400/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=xfiBF36BCNofLhsnNCvrlxdTn0LZQWVMan3tB4HR61c"
+          },
+          "schoolName": "Ironhack",
+          "skills": [],
+          "startDate": null
+        },
+        {
+          "degree": "Associate’s Degree",
+          "endDate": {
+            "text": ""
+          },
+          "fieldOfStudy": null,
+          "schoolId": "829374",
+          "schoolLinkedinUrl": "https://www.linkedin.com/company/829374/",
+          "schoolLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG8NmvoLkCOCg/company-logo_400_400/company-logo_400_400/0/1643638156998/palm_beach_state_college_logo?e=1779321600&v=beta&t=bxPau5nPHUQyzwvGc7cou5HOUdz5ipwAnZjXVILbCQ0",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG8NmvoLkCOCg/company-logo_200_200/company-logo_200_200/0/1643638156998/palm_beach_state_college_logo?e=1779321600&v=beta&t=FlYiXF-qmENt7CHY3MjtTsdZKxMxbMSzJaxODDWW5Qg",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG8NmvoLkCOCg/company-logo_100_100/company-logo_100_100/0/1643638156998/palm_beach_state_college_logo?e=1779321600&v=beta&t=U7LEgi73ctzXNBLG34fEzzqQOOtqMkn_x4grUPDJI_s",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG8NmvoLkCOCg/company-logo_400_400/company-logo_400_400/0/1643638156998/palm_beach_state_college_logo?e=1779321600&v=beta&t=bxPau5nPHUQyzwvGc7cou5HOUdz5ipwAnZjXVILbCQ0"
+          },
+          "schoolName": "Palm Beach State College",
+          "skills": [],
+          "startDate": null
+        }
+      ],
+      "emails": [],
+      "experience": [
+        {
+          "companyId": "4367317",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/wearerunwise/",
+          "companyLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_400_400/B4EZWCdcLBH0AY-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=PxciwJvQQ0OGweohsOSkF6V6-sLAtQ0BhE6EYKdtWgQ",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_200_200/B4EZWCdcLBH0AI-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=hZrNGo0kF3rGtQ4ILjEvJLJ8GHe9leI36dQHqGKJzyg",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_100_100/B4EZWCdcLBH0AQ-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=MTAVjNUBTkp308aou9rC4v_uYFejpG7Buv_1clTzwlc",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQED_U9L-WCmWw/company-logo_400_400/B4EZWCdcLBH0AY-/0/1741650510876/wearerunwise_logo?e=1779321600&v=beta&t=PxciwJvQQ0OGweohsOSkF6V6-sLAtQ0BhE6EYKdtWgQ"
+          },
+          "companyName": "Runwise",
+          "companyUniversalName": "wearerunwise",
+          "description": "Built and shipped core products end to end, turning complex problems into simple, reliable systems.\n\nDeveloped internal sales systems by integrating external platforms and data sources, including AI-powered prospecting and research workflows.\n\nLed the redesign of the core application, improving usability and reducing support overhead.\n\nImproved developer velocity and product reliability through AI-driven tools and modern engineering practices.",
+          "duration": "3 yrs 1 mo",
+          "employmentType": "Full-time",
+          "endDate": {
+            "text": "Present"
+          },
+          "location": "United States",
+          "position": "Senior Software Engineer",
+          "skills": [
+            "Next.js",
+            "React.js",
+            "TypeScript",
+            "Anthropic Claude",
+            "Claude Skills",
+            "Go (Programming Language)"
+          ],
+          "startDate": {
+            "month": "May",
+            "text": "May 2023",
+            "year": 2023
+          },
+          "workplaceType": "Remote"
+        },
+        {
+          "companyId": "162479",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/162479/",
+          "companyLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1779321600&v=beta&t=2XT4bhv4ucuUnJDyWFKbT_EdTovFqJKENhhwL0butbk",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1779321600&v=beta&t=7ttXVTUYLeVnRP2agP3t33m2XD03fG0TVd10NC4Ja6E",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1779321600&v=beta&t=jqcy5iU_tIZ5-aSp0p2WIo2xGMZy0S5DBa3ggfRIMZk",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1779321600&v=beta&t=2XT4bhv4ucuUnJDyWFKbT_EdTovFqJKENhhwL0butbk"
+          },
+          "companyName": "Apple",
+          "description": "Built internal tools and data visualizations that helped engineering teams identify and resolve issues faster. Improved system performance, automated critical workflows, and contributed to more stable OS releases.",
+          "duration": "1 yr 1 mo",
+          "employmentType": "Full-time",
+          "endDate": {
+            "month": "Jul",
+            "text": "Jul 2023",
+            "year": 2023
+          },
+          "location": "San Diego, California, United States",
+          "position": "Software Engineer",
+          "skills": [
+            "Next.js",
+            "TypeScript",
+            "Node.js",
+            "Ruby on Rails",
+            "Ruby",
+            "Docker",
+            "Kubernetes"
+          ],
+          "startDate": {
+            "month": "Jul",
+            "text": "Jul 2022",
+            "year": 2022
+          },
+          "workplaceType": "Hybrid"
+        },
+        {
+          "companyId": "18630464",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/18630464/",
+          "companyLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQFl0tLcJ74xsQ/company-logo_400_400/B56Zip46d4G0Ac-/0/1755196926179/kenect_logo?e=1779321600&v=beta&t=D6HO_CV-hoF3CMsjPNSII8xLyutNwsMjXJPz0SMtqao",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQFl0tLcJ74xsQ/company-logo_200_200/B56Zip46d4G0AM-/0/1755196926179/kenect_logo?e=1779321600&v=beta&t=eZUKmJ5j4YpvzztINHcVYXjckL0TeeGjizTyNpjxuGg",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQFl0tLcJ74xsQ/company-logo_100_100/B56Zip46d4G0AU-/0/1755196926179/kenect_logo?e=1779321600&v=beta&t=Uq_57OJkAJgRXgCf21lh87nxP9EwvckA5viTvo5wokI",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQFl0tLcJ74xsQ/company-logo_400_400/B56Zip46d4G0Ac-/0/1755196926179/kenect_logo?e=1779321600&v=beta&t=D6HO_CV-hoF3CMsjPNSII8xLyutNwsMjXJPz0SMtqao"
+          },
+          "companyName": "Kenect",
+          "description": "Enhanced core product features, improving performance and user experience. Collaborated with a distributed team to integrate new architectures, strengthen reliability, and maintain shared component libraries. ",
+          "duration": "1 yr",
+          "employmentType": "Full-time",
+          "endDate": {
+            "month": "Jul",
+            "text": "Jul 2022",
+            "year": 2022
+          },
+          "location": "United States",
+          "position": "Software Engineer",
+          "skills": [
+            "React.js",
+            "JavaScript",
+            "TypeScript",
+            "Firebase",
+            "Jest",
+            "Cypress.io"
+          ],
+          "startDate": {
+            "month": "Aug",
+            "text": "Aug 2021",
+            "year": 2021
+          },
+          "workplaceType": "Remote"
+        },
+        {
+          "companyId": "65414900",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/65414900/",
+          "companyLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEeKTk-5fkDDQ/company-logo_400_400/company-logo_400_400/0/1630534541897/genesis_professional_group_logo?e=1779321600&v=beta&t=olIHv8YEtHR8i5sU9rBd8gumUzdgrdlqDiriHR2neAA",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEeKTk-5fkDDQ/company-logo_200_200/company-logo_200_200/0/1630534541897/genesis_professional_group_logo?e=1779321600&v=beta&t=xShnWaUKg5Z7erI4Oo5U9pLoPNYNyvg52r8tj9ewCTo",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEeKTk-5fkDDQ/company-logo_100_100/company-logo_100_100/0/1630534541897/genesis_professional_group_logo?e=1779321600&v=beta&t=SviTp-arvLqjpte5SQn0wLWA73pWiAM5-zPsKgT0HME",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEeKTk-5fkDDQ/company-logo_400_400/company-logo_400_400/0/1630534541897/genesis_professional_group_logo?e=1779321600&v=beta&t=olIHv8YEtHR8i5sU9rBd8gumUzdgrdlqDiriHR2neAA"
+          },
+          "companyName": "Genesis Professional Group",
+          "description": "Developed a multi-tenant web application with modern frontend frameworks. Created reusable components, streamlined workflows, and delivered interactive features to support enterprise clients.",
+          "duration": "1 yr 7 mos",
+          "employmentType": "Full-time",
+          "endDate": {
+            "month": "Aug",
+            "text": "Aug 2021",
+            "year": 2021
+          },
+          "location": "United States",
+          "position": "Software Engineer",
+          "skills": [
+            "React.js",
+            "JavaScript",
+            "ASP.NET Core",
+            "C#",
+            "Jest"
+          ],
+          "startDate": {
+            "month": "Feb",
+            "text": "Feb 2020",
+            "year": 2020
+          },
+          "workplaceType": "Remote"
+        }
+      ],
+      "featured": null,
+      "firstName": "David",
+      "followerCount": 4838,
+      "headline": "Senior Software Engineer at Runwise",
+      "hiring": false,
+      "honorsAndAwards": [],
+      "id": "ACoAABDgfvoBTiRiPyF8AS3CMsIFqhkBLmLJ_bQ",
+      "influencer": false,
+      "languages": [
+        {
+          "name": "English"
+        },
+        {
+          "name": "Portuguese"
+        }
+      ],
+      "lastName": "Colatti",
+      "linkedinUrl": "https://www.linkedin.com/in/davidcolatti",
+      "location": {
+        "countryCode": "US",
+        "linkedinText": "Miami-Fort Lauderdale Area",
+        "parsed": {
+          "city": "Miami",
+          "country": "United States",
+          "countryCode": "US",
+          "countryFull": "United States of America",
+          "regionCode": null,
+          "state": "Florida",
+          "text": "Miami, FL, United States"
+        }
+      },
+      "memorialized": false,
+      "moreProfiles": [
+        {
+          "firstName": "Eric",
+          "id": "ACoAACSVuPABYrwiLZdqiLJ7pRqLpea6o4k59j4",
+          "lastName": "D'Aguanno",
+          "linkedinUrl": "https://www.linkedin.com/in/ericdaguanno",
+          "publicIdentifier": "ericdaguanno"
+        },
+        {
+          "firstName": "Danny",
+          "id": "ACoAABnGXXABZk1ymeYyYjFroktyoltyQcr5fK8",
+          "lastName": "Carr",
+          "linkedinUrl": "https://www.linkedin.com/in/danny-carr-1289a1100",
+          "publicIdentifier": "danny-carr-1289a1100"
+        },
+        {
+          "firstName": "Kelly-Ann",
+          "id": "ACoAABMBwG8BBSg9vC13D7epxv60aMmSJ6EF-IA",
+          "lastName": "Corrigan",
+          "linkedinUrl": "https://www.linkedin.com/in/kacorrigan",
+          "publicIdentifier": "kacorrigan"
+        },
+        {
+          "firstName": "Randy",
+          "id": "ACoAADCGyasBzpaRc1RhlFL389f1Nvau0gDoOqk",
+          "lastName": "Berman",
+          "linkedinUrl": "https://www.linkedin.com/in/randy-berman-88b7a11a8",
+          "publicIdentifier": "randy-berman-88b7a11a8"
+        },
+        {
+          "firstName": "Jeffrey",
+          "id": "ACoAACCFtyUBld-e9qrmZGtANO_Ztg2Vq9TQM-o",
+          "lastName": "Carleton",
+          "linkedinUrl": "https://www.linkedin.com/in/jeffrey-carleton-571894132",
+          "publicIdentifier": "jeffrey-carleton-571894132"
+        },
+        {
+          "firstName": "Aaron",
+          "id": "ACoAABr229sBqMDa9RElnBJR88XQoIiHerjn9Hw",
+          "lastName": "K.",
+          "linkedinUrl": "https://www.linkedin.com/in/aakap",
+          "publicIdentifier": "aakap"
+        },
+        {
+          "firstName": "Bill",
+          "id": "ACoAAABOY20B6E_Ldd3-tlxEYodi4iTaI3wy5lw",
+          "lastName": "DeMoss",
+          "linkedinUrl": "https://www.linkedin.com/in/wdemoss",
+          "publicIdentifier": "wdemoss"
+        },
+        {
+          "firstName": "Jenifer",
+          "id": "ACoAACah1boBEmksnOHEkP0sy5WQz-cRIzpIRFQ",
+          "lastName": "Miller",
+          "linkedinUrl": "https://www.linkedin.com/in/jenifer-miller250",
+          "publicIdentifier": "jenifer-miller250"
+        },
+        {
+          "firstName": "Siyaa",
+          "id": "ACoAABuSBtcBQxBiQ_3h2GqF6P1YxZV0LEj_6e4",
+          "lastName": "Munjal Mehta",
+          "linkedinUrl": "https://www.linkedin.com/in/siyaa-munjal",
+          "publicIdentifier": "siyaa-munjal"
+        },
+        {
+          "firstName": "Dmytro",
+          "id": "ACoAADtmfp4BfY628unBfOcU618gQUXGKGLlhy8",
+          "lastName": "Fohel",
+          "linkedinUrl": "https://www.linkedin.com/in/dmytro-fohel",
+          "publicIdentifier": "dmytro-fohel"
+        },
+        {
+          "firstName": "Peter",
+          "id": "ACoAAACcGwMB5GuG98lXuEE1cT3QVfDSJ9UwcR8",
+          "lastName": "Traeg",
+          "linkedinUrl": "https://www.linkedin.com/in/peter-traeg",
+          "publicIdentifier": "peter-traeg"
+        },
+        {
+          "firstName": "Patrick E.",
+          "id": "ACoAAAejdVsBRFud8cVcCEsK9G75hb1bIdUYlgw",
+          "lastName": "Beesley",
+          "linkedinUrl": "https://www.linkedin.com/in/patrick-e-beesley",
+          "publicIdentifier": "patrick-e-beesley"
+        },
+        {
+          "firstName": "Carmen",
+          "id": "ACoAABWDTtcBwq5wDqJCdIHc6TRFVvH18xRZj94",
+          "lastName": "Steiner",
+          "linkedinUrl": "https://www.linkedin.com/in/carmen-steiner-907a59a0",
+          "publicIdentifier": "carmen-steiner-907a59a0"
+        },
+        {
+          "firstName": "Scott",
+          "id": "ACoAAE1agLoBEefD-K6GmeLMZHT-skP1aD-hcLM",
+          "lastName": "Odowd",
+          "linkedinUrl": "https://www.linkedin.com/in/scottodowd83",
+          "publicIdentifier": "scottodowd83"
+        },
+        {
+          "firstName": "Pedro",
+          "id": "ACoAAAFbhrkB9o4MfRuTtbgZzny7cElhFSZD1DA",
+          "lastName": "Palmares",
+          "linkedinUrl": "https://www.linkedin.com/in/pedropalmares",
+          "publicIdentifier": "pedropalmares"
+        },
+        {
+          "firstName": "Paweł",
+          "id": "ACoAAABHqPYBVPVNmB-jKeFdUfYjUzygP_Eoi3c",
+          "lastName": "Lekki",
+          "linkedinUrl": "https://www.linkedin.com/in/paweł-lekki-9326a51",
+          "publicIdentifier": "paweł-lekki-9326a51"
+        },
+        {
+          "firstName": "John",
+          "id": "ACoAACGtI3oBtxgmnNZjj1MfNThR8ehM9Iq8XEA",
+          "lastName": "Martisch",
+          "linkedinUrl": "https://www.linkedin.com/in/john-martisch-7b6270139",
+          "publicIdentifier": "john-martisch-7b6270139"
+        },
+        {
+          "firstName": "Katrina",
+          "id": "ACoAAAHi1PYBTWQyKuw_FbWJIGF8rkvW81XakmA",
+          "lastName": "L.",
+          "linkedinUrl": "https://www.linkedin.com/in/katrinaliao",
+          "publicIdentifier": "katrinaliao"
+        },
+        {
+          "firstName": "Alexandra",
+          "id": "ACoAAA5JDSkBr_55semJCdqTTtZCOZsXvMv-2Qk",
+          "lastName": "Murphy",
+          "linkedinUrl": "https://www.linkedin.com/in/alexandra-murphy-08932168",
+          "publicIdentifier": "alexandra-murphy-08932168"
+        },
+        {
+          "firstName": "Julian",
+          "id": "ACoAACFLlH8BBBiXHObaJH3qEixHT1uXA1ymfk8",
+          "lastName": "Montilus",
+          "linkedinUrl": "https://www.linkedin.com/in/julian-montilus-7bb0a8137",
+          "publicIdentifier": "julian-montilus-7bb0a8137"
+        }
+      ],
+      "multiLocaleHeadline": [
+        {
+          "headline": "Senior Software Engineer at Runwise",
+          "locale": "en_US"
+        }
+      ],
+      "objectUrn": "283148026",
+      "openToWork": false,
+      "organizations": [],
+      "patents": [],
+      "photo": "https://media.licdn.com/dms/image/v2/D4E03AQF5Dbvw-wXMOg/profile-displayphoto-crop_800_800/B4EZydfVk6GYAI-/0/1772168764329?e=1779321600&v=beta&t=kH-DASDWPJJFYRH0lotnwfLJ2eWwu7oxrtUKcsuoPeU",
+      "premium": false,
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "profileActions": [],
+      "profileLocales": [
+        {
+          "country": "US",
+          "language": "en"
+        }
+      ],
+      "profilePicture": {
+        "sizes": [
+          {
+            "expiresAt": 1779321600000,
+            "height": 800,
+            "url": "https://media.licdn.com/dms/image/v2/D4E03AQF5Dbvw-wXMOg/profile-displayphoto-crop_800_800/B4EZydfVk6GYAI-/0/1772168764329?e=1779321600&v=beta&t=kH-DASDWPJJFYRH0lotnwfLJ2eWwu7oxrtUKcsuoPeU",
+            "width": 800
+          },
+          {
+            "expiresAt": 1779321600000,
+            "height": 400,
+            "url": "https://media.licdn.com/dms/image/v2/D4E03AQF5Dbvw-wXMOg/profile-displayphoto-scale_400_400/B4EZydfVk6GYAg-/0/1772168764414?e=1779321600&v=beta&t=OtzDOEUgI0kblsXR_4mz2wLWbXyH-Pf4lXULyBuvp1I",
+            "width": 400
+          },
+          {
+            "expiresAt": 1779321600000,
+            "height": 200,
+            "url": "https://media.licdn.com/dms/image/v2/D4E03AQF5Dbvw-wXMOg/profile-displayphoto-scale_200_200/B4EZydfVk6GYAY-/0/1772168764414?e=1779321600&v=beta&t=rJGt7G_gO6Ty1yZNPpiAe-uRkVEo73Knwh8XijeRzt8",
+            "width": 200
+          },
+          {
+            "expiresAt": 1779321600000,
+            "height": 100,
+            "url": "https://media.licdn.com/dms/image/v2/D4E03AQF5Dbvw-wXMOg/profile-displayphoto-scale_100_100/B4EZydfVk6GYAc-/0/1772168764414?e=1779321600&v=beta&t=VNC-tmvjz5Xtr5XafaDhXL8K1U-4zDrAvSqEZk6de1Y",
+            "width": 100
+          }
+        ],
+        "url": "https://media.licdn.com/dms/image/v2/D4E03AQF5Dbvw-wXMOg/profile-displayphoto-crop_800_800/B4EZydfVk6GYAI-/0/1772168764329?e=1779321600&v=beta&t=kH-DASDWPJJFYRH0lotnwfLJ2eWwu7oxrtUKcsuoPeU"
+      },
+      "profileTopEducation": [
+        {
+          "degree": "Full Stack Web Development",
+          "description": "Ironhack is an immersive bootcamp with locations all over the globe, offering 9-week courses in Full Stack Web Development and UX/UI Design. (400+ hours)\n\nTechnologies: JavaScript, React.js, Node.js, Express.js, MongoDB, HTML5 & CSS3",
+          "endDate": {
+            "text": ""
+          },
+          "fieldOfStudy": null,
+          "schoolId": "3297892",
+          "schoolLinkedinUrl": "https://www.linkedin.com/company/3297892/",
+          "schoolLogo": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_400_400/company-logo_400_400/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=xfiBF36BCNofLhsnNCvrlxdTn0LZQWVMan3tB4HR61c",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_200_200/company-logo_200_200/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=xYtX9nTOUxDXv-MWOawre3yoRr3hiJ6SOURojZV0_UA",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_100_100/company-logo_100_100/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=TLwnrrih1zTt-4MCi8cWm8jOIpUn3HVCDpHnWVZ_XBA",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/C4D0BAQG2NHDv2YWLyA/company-logo_400_400/company-logo_400_400/0/1669206757915/ironhack_logo?e=1779321600&v=beta&t=xfiBF36BCNofLhsnNCvrlxdTn0LZQWVMan3tB4HR61c"
+          },
+          "schoolName": "Ironhack",
+          "skills": [],
+          "startDate": null
+        }
+      ],
+      "projects": [],
+      "publicIdentifier": "davidcolatti",
+      "publications": [],
+      "receivedRecommendations": [
+        {
+          "description": "I only had the opportunity to work with David for a short time, but was truly impressed with his work ethic, technical abilities, and leadership skills. He could easily take any project and quickly determine the work that would be needed, ask the right follow-up questions and work autonomously to complete the project. David is a great team member and leader. I highly recommend David. He's as solid is a they come!",
+          "givenAt": "July 18, 2022, Tyler worked with David on the same team",
+          "givenBy": "Tyler Urrutia",
+          "givenByHeadline": "Product Manager | Driving Revenue Growth with Innovative Solutions",
+          "givenByLink": "https://www.linkedin.com/in/tylerurrutia",
+          "givenByPicture": {
+            "sizes": [
+              {
+                "expiresAt": 1779321600000,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQHVz9zw6VJEVQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722737925155?e=1779321600&v=beta&t=oDcwyCMwQcbUgGY_mN8dUT9qr_ARxPJHB3xnIhIps00",
+                "width": 800
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQHVz9zw6VJEVQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722737925140?e=1779321600&v=beta&t=azvIn7Qg-V4QMa-c4I91BznljQqZkgOBR8wyKuMKoiE",
+                "width": 400
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQHVz9zw6VJEVQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722737925140?e=1779321600&v=beta&t=PZjLgJVuYdC8mAZRtzQboaPTSMq-OgQsfmFP7CsvuUw",
+                "width": 200
+              },
+              {
+                "expiresAt": 1779321600000,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQHVz9zw6VJEVQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1722737925140?e=1779321600&v=beta&t=mzLpHrrV_Iqel1JVDgp8qXWr5tofDrXInx4RTJtFgU8",
+                "width": 100
+              }
+            ],
+            "url": "https://media.licdn.com/dms/image/v2/D5603AQHVz9zw6VJEVQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722737925155?e=1779321600&v=beta&t=oDcwyCMwQcbUgGY_mN8dUT9qr_ARxPJHB3xnIhIps00"
+          }
+        }
+      ],
+      "registeredAt": "2013-08-27T19:54:07.130Z",
+      "services": null,
+      "skills": [
+        {
+          "name": "Anthropic Claude",
+          "positions": [
+            "Senior Software Engineer at Runwise"
+          ]
+        },
+        {
+          "name": "Claude Skills",
+          "positions": [
+            "Senior Software Engineer at Runwise"
+          ]
+        },
+        {
+          "name": "Go (Programming Language)",
+          "positions": [
+            "Senior Software Engineer at Runwise"
+          ]
+        },
+        {
+          "name": "Go-to-Market Strategy"
+        },
+        {
+          "name": "HubSpot"
+        },
+        {
+          "name": "Salesforce.com"
+        },
+        {
+          "name": "Outbound Sales"
+        },
+        {
+          "name": "Outbound Marketing"
+        },
+        {
+          "name": "Cypress.io",
+          "positions": [
+            "Software Engineer at Kenect"
+          ]
+        },
+        {
+          "name": "Next.js",
+          "positions": [
+            "2 experiences across Runwise and 1 other company"
+          ]
+        },
+        {
+          "endorsements": "1 endorsement",
+          "name": "Ruby on Rails",
+          "positions": [
+            "Software Engineer at Apple"
+          ]
+        },
+        {
+          "endorsements": "1 endorsement",
+          "name": "Ruby",
+          "positions": [
+            "Software Engineer at Apple"
+          ]
+        },
+        {
+          "name": "Kubernetes",
+          "positions": [
+            "Software Engineer at Apple"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "positions": [
+            "3 experiences across Runwise and 2 other companies"
+          ]
+        },
+        {
+          "endorsements": "20 endorsements",
+          "name": "Marketing Strategy"
+        },
+        {
+          "endorsements": "21 endorsements",
+          "name": "Marketing"
+        },
+        {
+          "endorsements": "18 endorsements",
+          "name": "Sales"
+        },
+        {
+          "endorsements": "9 endorsements",
+          "name": "Social Media"
+        },
+        {
+          "endorsements": "7 endorsements",
+          "name": "Sales Management"
+        },
+        {
+          "endorsements": "6 endorsements",
+          "name": "Account Management"
+        },
+        {
+          "endorsements": "2 endorsements",
+          "name": "Social Media Marketing"
+        },
+        {
+          "endorsements": "3 endorsements",
+          "name": "Email Marketing"
+        },
+        {
+          "endorsements": "3 endorsements",
+          "name": "Online Marketing"
+        },
+        {
+          "name": "Customer Relationship Management (CRM)"
+        },
+        {
+          "endorsements": "1 endorsement",
+          "name": "Responsive Web Design"
+        },
+        {
+          "endorsements": "9 endorsements",
+          "name": "Customer Service"
+        },
+        {
+          "name": "Express.js"
+        },
+        {
+          "endorsements": "1 endorsement",
+          "name": "Agile Methodologies"
+        },
+        {
+          "endorsements": "5 endorsements",
+          "name": "Microsoft Office"
+        },
+        {
+          "endorsements": "2 endorsements",
+          "name": "Google Analytics"
+        },
+        {
+          "assessments": "Passed LinkedIn Skill Assessment",
+          "name": "JavaScript",
+          "positions": [
+            "2 experiences across Kenect and 1 other company"
+          ]
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "Cascading Style Sheets (CSS)"
+        },
+        {
+          "name": "CSS Flexbox"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "assessments": "Passed LinkedIn Skill Assessment",
+          "name": "React.js",
+          "positions": [
+            "3 experiences across Runwise and 2 other companies"
+          ]
+        },
+        {
+          "name": "Node.js",
+          "positions": [
+            "Software Engineer at Apple"
+          ]
+        },
+        {
+          "name": "GitHub"
+        },
+        {
+          "name": "jQuery"
+        },
+        {
+          "name": "AJAX"
+        },
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "endorsements": "4 endorsements",
+          "name": "Strategic Planning"
+        },
+        {
+          "endorsements": "7 endorsements",
+          "name": "Team Leadership"
+        },
+        {
+          "endorsements": "2 endorsements",
+          "name": "Public Speaking"
+        }
+      ],
+      "topSkills": null,
+      "verified": true,
+      "volunteering": []
+    },
+    "entityId": "ACoAABDgfvoBTiRiPyF8AS3CMsIFqhkBLmLJ_bQ",
+    "originalQuery": {
+      "includeAboutProfile": "true",
+      "main": "false",
+      "url": "https://www.linkedin.com/in/davidcolatti/"
+    },
+    "payments": [
+      "linkedinProfile"
+    ],
+    "query": {
+      "includeAboutProfile": true,
+      "main": false,
+      "profileId": "ACoAABDgfvoBTiRiPyF8AS3CMsIFqhkBLmLJ_bQ",
+      "publicIdentifier": "davidcolatti",
+      "short": false,
+      "url": "https://www.linkedin.com/in/davidcolatti/"
+    },
+    "requestId": "1dfaf5ff-504c-4745-b366-8f30e087b0e5",
+    "retries": 0,
+    "status": 200,
+    "user": {
+      "membershipTier": "starter",
+      "planName": "starter",
+      "requestsConcurrency": 5
+    }
+  },
+  "provider": "harvest",
+  "rate_limit": {
+    "daily_reset_seconds": null,
+    "minute_reset_seconds": null,
+    "per_day_limit": null,
+    "per_day_remaining": null,
+    "per_minute_limit": null,
+    "per_minute_remaining": null,
+    "per_second_limit": null,
+    "per_second_remaining": null,
+    "retry_after_seconds": null
+  },
+  "status_code": 200
+}

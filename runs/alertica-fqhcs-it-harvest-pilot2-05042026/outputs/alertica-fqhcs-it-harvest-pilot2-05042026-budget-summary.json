@@ -1,0 +1,64 @@
+{
+  "event_count": 12,
+  "events_path": "runs/alertica-fqhcs-it-harvest-pilot2-05042026/raw/alertica-fqhcs-it-harvest-pilot2-05042026-budget-events.jsonl",
+  "operation_totals": [
+    {
+      "calls": 3,
+      "operation": "harvest_company_posts",
+      "provider": "harvest",
+      "stage": "fqhc_company_posts",
+      "total_cost_usd": 0.006,
+      "usage_label": "requests",
+      "usage_units": 3.0
+    },
+    {
+      "calls": 3,
+      "operation": "harvest_company_get",
+      "provider": "harvest",
+      "stage": "fqhc_company_qualifier",
+      "total_cost_usd": 0.006,
+      "usage_label": "requests",
+      "usage_units": 3.0
+    },
+    {
+      "calls": 3,
+      "operation": "harvest_profile_posts",
+      "provider": "harvest",
+      "stage": "fqhc_profile_posts",
+      "total_cost_usd": 0.006,
+      "usage_label": "requests",
+      "usage_units": 3.0
+    },
+    {
+      "calls": 3,
+      "operation": "harvest_full_profile_get",
+      "provider": "harvest",
+      "stage": "fqhc_profile_qualifier",
+      "total_cost_usd": 0.0096,
+      "usage_label": "requests",
+      "usage_units": 3.0
+    }
+  ],
+  "pricing": {
+    "firecrawl_credit_usd": 0.001,
+    "firecrawl_map_credits_per_request": 1.0,
+    "firecrawl_scrape_credits_per_page": 1.0,
+    "harvest_company_get_usd": 0.002,
+    "harvest_company_posts_usd": 0.002,
+    "harvest_full_profile_usd": 0.0032,
+    "harvest_main_profile_usd": 0.002,
+    "harvest_profile_posts_usd": 0.002,
+    "harvest_profile_with_email_usd": 0.01,
+    "serper_news_usd": 0.003,
+    "serper_search_usd": 0.003
+  },
+  "provider_totals": {
+    "harvest": {
+      "calls": 12,
+      "total_cost_usd": 0.0276
+    }
+  },
+  "run_slug": "alertica-fqhcs-it-harvest-pilot2-05042026",
+  "summary_path": "runs/alertica-fqhcs-it-harvest-pilot2-05042026/outputs/alertica-fqhcs-it-harvest-pilot2-05042026-budget-summary.json",
+  "total_cost_usd": 0.0276
+}

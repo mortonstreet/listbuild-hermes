@@ -1,0 +1,2 @@
+run_slug,seller_slug,segment_slug,source_query,company_name,company_domain,company_linkedin_url,company_description,company_offer,company_icp,company_painpoint,company_size,company_headcount_exact,company_headcount_range,company_signals,company_signal_sources,company_quality_score,company_needs_followup,harvest_company_id,harvest_status
+alertica-msps-05032026,alertica,msps,,Alertica Test Co,alertica-test.example,https://linkedin.com/company/alertica-test,Test import row,,,,11-50,,,,,50,true,,imported

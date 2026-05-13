@@ -1,0 +1,15 @@
+{
+  "serper_search_usd": 0.003,
+  "serper_news_usd": 0.003,
+  "harvest_company_get_usd": 0.002,
+  "harvest_company_posts_usd": 0.002,
+  "harvest_full_profile_usd": 0.0032,
+  "harvest_main_profile_usd": 0.002,
+  "harvest_profile_with_email_usd": 0.01,
+  "harvest_profile_posts_usd": 0.002,
+  "minimax_company_reasoning_usd": 0.0,
+  "brightdata_record_usd": 0.0015,
+  "firecrawl_credit_usd": 0.001,
+  "firecrawl_map_credits_per_request": 1.0,
+  "firecrawl_scrape_credits_per_page": 1.0
+}

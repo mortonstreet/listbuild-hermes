@@ -1,0 +1,287 @@
+# ListBuild API Layer
+
+Deterministic Python clients for the current public APIs behind:
+
+- Serper.dev
+- Harvest API
+- MillionVerifier
+- Prospeo
+- Firecrawl
+
+This repo is intentionally API-first. The transport layer, retries, throttling, and auth are centralized so list-building logic can be added later without rewriting provider integrations.
+
+## Architecture
+
+The package is organized around four layers:
+
+1. `listbuild.config`
+   Loads `.env`, validates provider settings, and exposes explicit rate-limit knobs.
+2. `listbuild.http`
+   Shared async HTTP transport with retry/backoff, token-bucket throttling, and structured responses.
+3. `listbuild.providers.*`
+   Thin provider-specific clients aligned to the current public documentation.
+4. `listbuild.cli`
+   Deterministic runner for smoke tests and direct API calls.
+
+The first workflow layer is now included:
+
+5. `listbuild.workflows`
+   Deterministic orchestration that decides which providers to call and in what order.
+6. `listbuild.pipeline`
+   Reusable seller/buyer templates, stage blueprints, and cost estimation.
+7. `listbuild.storage`
+   Supabase/Postgres sync for deterministic CSV outputs and raw provider event streams.
+
+## Install
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+## Environment
+
+The existing `.env` is read automatically. The current keys in use are:
+
+- `SERPER_API_KEY1`
+- `SERPER_API_KEY2`
+- `HARVEST_API_KEY`
+- `MILLION_VERIFIER_API_KEY`
+- `PROSPEO_API_KEY`
+- `FIRECRAWL_API_KEY`
+
+Optional tuning variables:
+
+- `SERPER_QPS`
+- `HARVEST_QPS`
+- `MILLION_VERIFIER_QPS`
+- `PROSPEO_SEARCH_QPS`
+- `PROSPEO_ENRICH_QPS`
+- `FIRECRAWL_SCRAPE_QPS`
+- `FIRECRAWL_MAP_QPS`
+- `FIRECRAWL_SEARCH_QPS`
+- `LISTBUILD_TIMEOUT_SECONDS`
+
+Optional Supabase/Postgres variables:
+
+- `SUPABASE_URL`
+- `SUPABASE_SECRET_KEY`
+- `SUPABASE_SERVICE_ROLE_KEY`
+- `SUPABASE_SCHEMA`
+- `SUPABASE_DB_URL`
+- `SUPABASE_DB_HOST`
+- `SUPABASE_DB_PORT`
+- `SUPABASE_DB_NAME`
+- `SUPABASE_DB_USER`
+- `SUPABASE_DB_PASSWORD`
+- `SUPABASE_DB_SSLMODE`
+
+## Examples
+
+```bash
+python run_api_calls.py serper search --query "b2b data providers" --num 10
+python run_api_calls.py harvest company-search --search "OpenAI"
+python run_api_calls.py million verify --email "name@example.com"
+python run_api_calls.py prospeo account-information
+python run_api_calls.py firecrawl scrape --url "https://example.com" --format markdown
+python run_api_calls.py workflow company-discovery --query "seed stage fintech companies in new york" --search-results 20 --max-companies 8
+python run_api_calls.py workflow company-scrape --seller alertica --segment msps --query "managed service providers" --headcount-bucket 11-50 --dedupe-supabase --upsert-supabase
+python run_api_calls.py workflow people-scrape --seller alertica --segment msps --companies-csv runs/alertica-msps-05032026/outputs/alertica-msps-05032026-companies.csv --role-segment "owners:Founder|Co-Founder|CEO" --dedupe-supabase --upsert-supabase
+python run_api_calls.py workflow full-scrape --seller alertica --segment msps --query "managed service providers" --role-segment "owners:Founder|Co-Founder|CEO" --role-segment "security:VP Security|Head of Security" --pricing-file examples/scrape_pricing.default.json --dedupe-supabase --upsert-supabase
+python run_api_calls.py pipeline describe --template-file examples/morton_street_ma_advisory.json
+python run_api_calls.py pipeline estimate-cost --template-file examples/morton_street_ma_advisory.json
+python run_api_calls.py pipeline plan-coverage --target-valid-emails 300 --observed-companies 100 --observed-people 400 --observed-valid-emails 200
+python run_api_calls.py storage ping
+python run_api_calls.py storage apply-schema
+python run_api_calls.py storage sync-run --seller alertica --segment msps --date 05032026 --metadata-json '{"query":"managed service providers"}'
+python run_api_calls.py storage import-companies-csv --input existing-companies.csv --seller alertica --segment msps
+python run_api_calls.py storage import-people-csv --input existing-people.csv --seller alertica --segment msps --role-segment "owners"
+```
+
+## Current Workflow Coverage
+
+Right now the codebase has:
+
+- Request-level runtime control: retries, backoff, throttling, connection caps
+- Deterministic run naming and output paths
+- Company discovery and enrichment: Serper -> Harvest company -> Firecrawl site research -> company CSV
+- People discovery and enrichment: Serper -> Harvest profile -> Harvest posts -> people CSV
+- Existing list imports with column normalization into canonical company/people schemas
+- Optional Supabase/Postgres sync for `scrape_runs`, `company_records`, `person_records`, and `raw_provider_events`
+- Pre-enrichment dedupe against canonical Supabase/Postgres record keys when direct Postgres credentials are configured
+
+It does not yet have:
+
+- Enrichment and email verification chaining
+- Budget-aware source fallback between Harvest and Prospeo
+- Persistent caching, resumability, or queue-backed workers
+- LLM-driven deep research loops that keep researching until a quality threshold is hit
+
+The reusable pipeline template layer now covers:
+
+- seller POV / buyer POV templating
+- role-segment templating
+- signal-bucket templating
+- scoring-rubric templating
+- stage-by-stage cost estimation
+
+Commands that require richer request bodies accept `--payload-file` or `--payload-json`.
+
+## Run Outputs
+
+Run names are deterministic:
+
+- `{seller}-{segment}-{mmddyyyy}-companies.csv`
+- `{seller}-{segment}-{mmddyyyy}-people.csv`
+
+Example:
+
+- `alertica-msps-05032026-companies.csv`
+- `alertica-msps-05032026-people.csv`
+
+Each run lives under `runs/{run_slug}/` with:
+
+- `raw/*.jsonl` for provider event streams
+- `outputs/*.csv` for materialized datasets
+
+JSONL is the default raw storage format so large runs can be replayed into CSV or Postgres without managing thousands of tiny JSON files.
+
+Scrape workflows now also emit live budget artifacts:
+
+- `raw/{run_slug}-budget-events.jsonl`
+- `outputs/{run_slug}-budget-summary.json`
+
+Each event records provider, stage, operation, units consumed, dollar cost, and cumulative cost at that point in the run.
+
+The default pricing model is checked in at [examples/scrape_pricing.default.json](examples/scrape_pricing.default.json). Override it with `--pricing-file` when your unit economics differ.
+
+`people.csv` is now a campaign-facing export, not the canonical storage shape. The exported columns are:
+
+- `full_name`
+- `first_name`
+- `last_name`
+- `company_name`
+- `role`
+- `role_description`
+- `e1`, `e2`, `e3`, `e4`
+- `s1`, `s2`, `s3`, `s4`
+- `p1`, `p2`, `p3`, `p4`
+
+The `e*`, `s*`, and `p*` fields are placeholders for segment- and role-specific spintax:
+
+- `e*` = email body variants
+- `s*` = subject-line variants
+- `p*` = personalized opener variants
+
+Hidden identity fields such as LinkedIn URL, email, company domain, and Harvest IDs stay in raw JSONL events and Supabase/Postgres so exported people files stay clean while dedupe and replay remain lossless.
+
+## Starting A Scrape
+
+The typical sequence is:
+
+1. Define the run slug.
+   Example: `alertica-msps-05032026`
+2. Run company discovery + enrichment.
+3. Run people discovery + enrichment against the generated `companies.csv`.
+4. Review the budget summary and CSV outputs.
+5. If needed, run a second pass with a larger universe based on observed email coverage.
+
+Example:
+
+```bash
+python run_api_calls.py workflow company-scrape \
+  --seller alertica \
+  --segment msps \
+  --date 05032026 \
+  --query "managed service providers" \
+  --headcount-bucket 11-50 \
+  --pricing-file examples/scrape_pricing.default.json \
+  --dedupe-supabase \
+  --upsert-supabase
+
+python run_api_calls.py workflow people-scrape \
+  --seller alertica \
+  --segment msps \
+  --date 05032026 \
+  --companies-csv runs/alertica-msps-05032026/outputs/alertica-msps-05032026-companies.csv \
+  --role-segment "owners:Founder|Co-Founder|CEO" \
+  --role-segment "it:CIO|VP IT|Director of IT" \
+  --pricing-file examples/scrape_pricing.default.json \
+  --dedupe-supabase \
+  --upsert-supabase
+```
+
+Or run both stages in one command:
+
+```bash
+python run_api_calls.py workflow full-scrape \
+  --seller alertica \
+  --segment msps \
+  --date 05032026 \
+  --query "managed service providers" \
+  --role-segment "owners:Founder|Co-Founder|CEO" \
+  --role-segment "it:CIO|VP IT|Director of IT" \
+  --pricing-file examples/scrape_pricing.default.json \
+  --dedupe-supabase \
+  --upsert-supabase
+```
+
+## Supabase Schema
+
+The checked-in schema is at [sql/supabase_listbuild_schema.sql](sql/supabase_listbuild_schema.sql). Apply it in Supabase before using `--upsert-supabase` or `storage sync-run`.
+
+## Dedupe Model
+
+Canonical records are now deduped globally, not per run:
+
+- companies dedupe by `company_linkedin_url`, then `company_domain`, then `company_name`
+- people dedupe by `person_linkedin_url`, then `person_email`, then `company_domain + full_name`
+
+This means:
+
+- existing imported lists can seed the database first
+- new scrapes can skip already-known companies and people before paid enrichment
+- later runs update the canonical record instead of creating run-specific duplicates
+- replaying a scrape run into Supabase can rebuild hidden identity from raw Harvest JSONL even though `people.csv` only contains the outbound copy columns
+
+## Coverage Iteration
+
+When a first run under-delivers on email coverage, use the observed output to size the next run:
+
+```bash
+python run_api_calls.py pipeline plan-coverage \
+  --target-valid-emails 300 \
+  --observed-companies 100 \
+  --observed-people 400 \
+  --observed-valid-emails 200
+```
+
+This returns:
+
+- observed email coverage rate
+- people per company
+- valid emails per company
+- the multiplier from v1
+- recommended total companies
+- recommended additional companies to scrape
+
+## Notes On Rate Limits
+
+- Serper defaults to `50 QPS`, matching the lowest paid tier shown on the public pricing page, and round-robins across both configured keys if present.
+- Harvest defaults to documented Starter-plan-style concurrency and does not impose an artificial requests-per-minute throttle because Harvest documents concurrency limits rather than RPM limits.
+- MillionVerifier defaults to a conservative client-side throttle and relies on retry/backoff if the provider is stricter.
+- Prospeo uses separate search and enrich limiters and auto-tunes from response headers when the API returns `X-Second-Rate-Limit`.
+- Firecrawl defaults to conservative per-endpoint throttles based on the public rate-limit documentation and can be overridden by env vars.
+
+## Document Sources
+
+Verified against the public docs on May 3, 2026:
+
+- `https://serper.dev/`
+- `https://docs.harvest-api.com/guides/quickstart`
+- `https://developer.millionverifier.com/`
+- `https://prospeo.io/api-docs`
+- `https://docs.firecrawl.dev/introduction`
+
+The example pipeline templates include assumed unit costs for Harvest, Prospeo, and LLM analysis. Replace those with your real effective costs before using the estimator as a budget source of truth.

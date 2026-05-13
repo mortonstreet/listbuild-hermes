@@ -1,0 +1,17 @@
+{
+  "run_slug": "alertica-fqhcs-spintax-guard-fulltest3-05062026",
+  "people_rows": 615,
+  "company_rows": 330,
+  "bucket_counts": {
+    "generic_management": 205,
+    "executive_owner": 153,
+    "clinical_admin": 92,
+    "operations": 47,
+    "hr_admin": 45,
+    "finance": 38,
+    "technical_it": 18,
+    "security_compliance_risk": 12,
+    "legal": 5
+  },
+  "email_only": true
+}

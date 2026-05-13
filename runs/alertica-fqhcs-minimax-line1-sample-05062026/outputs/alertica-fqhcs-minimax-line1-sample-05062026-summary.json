@@ -1,0 +1,9 @@
+{
+  "run_slug": "alertica-fqhcs-minimax-line1-sample-05062026",
+  "people_rows": 12,
+  "company_rows": 12,
+  "bucket_counts": {
+    "technical_it": 12
+  },
+  "email_only": true
+}

@@ -1,0 +1,13 @@
+{
+  "run_slug": "alertica-msp-mssp-copygen-signalcheck-05132026",
+  "people_rows": 30,
+  "company_rows": 5,
+  "bucket_counts": {
+    "leadership": 25,
+    "it_ops": 3,
+    "commercial": 2
+  },
+  "email_only": false,
+  "campaign_profile": "msp_mssp",
+  "send_ready_csv": "/Users/mortonstreet/listbuildv2/runs/alertica-msp-mssp-copygen-signalcheck-05132026/outputs/alertica-msp-mssp-copygen-signalcheck-05132026-people-send-ready.csv"
+}

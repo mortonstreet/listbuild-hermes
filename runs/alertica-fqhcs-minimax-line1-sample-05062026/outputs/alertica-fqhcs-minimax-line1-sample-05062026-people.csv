@@ -1,0 +1,469 @@
+full_name,first_name,last_name,company_name,role,role_description,e1,e2,e3,e4,s1,s2,s3,s4,p1,p2,p3,p4
+Arnie Reynoso,Arnie,Reynoso,Altura Centers For Health,Chief Information Officer,"An innovative and results-driven Information Technology leader and SW application engineer with extensive experience in software/application development, systems engineering/analysis, strategic planning, best practices, troubleshooting, research and development, product innovation, and end-user support","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw Altura Centers For Health uses Medfusion patient portal; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running primary care, dental, behavioral health, and pediatrics across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between uses medfusion patient portal and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Clifford Stark,Clifford,Stark,Ampla Health,Chief Information Officer,I have worked in healthcare for the past 15 years as the Director of IT PPS and Critical Access Hospitals,"{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like eClinicalWorks Cloud EHR implementation at Ampla Health; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running primary care, dental, behavioral health, and specialty care across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between eclinicalworks cloud ehr implementation and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Justin King,Justin,King,Asian American Health Coalition - Hope Clinic,Chief Information Officer,,"{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like shared record paths and patient-facing systems in the mix at Asian American Health Coalition - Hope Clinic; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around keeping trail visibility across shared paths and exports is usually where lean IT teams lose trail visibility.,"Running multiple care workflows moving through one clinic network usually means more record paths, exports, and shared folders to keep clean.","Between shared record paths and patient-facing systems in the mix and keeping trail visibility across shared paths and exports, I can see why agentless path coverage would matter here."
+Isaiah Adio,Isaiah,Adio,Berks Community Health Center,Chief Information Officer,"Multi-site FQHC operations with HIPAA compliance requirements across distributed locations, managing ePHI integrity across three clinic sites with patient portal (My Chart) containing sensitive health data - requires robust file integrity monitoring and compliance tracking without disrupting patient care operations.","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw Berks Community Health Center active My Chart patient portal for EHR; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running primary care, dental, and behavioral health across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between active my chart patient portal for ehr and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+David Siegel,David,Siegel,Care Alliance Health Center,Chief Information Officer,"FQHCs handling ePHI across multiple service lines (medical, dental, behavioral health, pharmacy) face significant HIPAA compliance burden and data integrity challenges. With lean IT resources (~96 employees) and multi-site operations, maintaining continuous file integrity monitoring and compliance documentation for protected health information is operationally challenging. Telehealth expansion and MyChart patient...","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like MyChart patient portal indicates EHR system integration at Care Alliance Health Center; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running dental, behavioral health, telehealth, and pharmacy across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between mychart patient portal indicates ehr system integration and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Jeremy Wight,Jeremy,Wight,Caremessage,Chief Technology Officer,"I'm passionate about two things: creating incredible products which provide tremendous value to millions of users, and building and releasing extremely high functioning teams","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like 900,000+ people reached with SDoH messaging in past year at Caremessage; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running Serves FQHCs and free clinics with a nonprofit model that reinvests revenue into impact usually means more record paths, exports, and shared folders to keep clean.","Between 900,000+ people reached with sdoh messaging in past year and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+"Jason Poling, MBA",Jason,Poling,Coplin Health Systems,Chief Information Officer,"At Coplin Health Systems, my role as Chief Information Officer encompasses leading the strategic direction for billing, informatics, and IT to ensure alignment with our business objectives","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like Second mobile health unit launched Nov 2025 at Coplin Health Systems; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running primary care, dental, behavioral health, and pharmacy across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between second mobile health unit launched nov 2025 and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Devin Pope,Devin,Pope,Crossing Healthcare,Director of IT,Experienced Telecommunications Manager with a demonstrated history of working in the hospital & health care industry,"{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like multi-location operations at Crossing Healthcare; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running behavioral health and pediatrics across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between multi-location operations and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Leonard Kwong,Leonard,Kwong,Herald Christian Health Center,Director of IT,"As an FQHC handling ePHI across multiple service lines (medical, dental, optometry, behavioral health), HCHC faces HIPAA compliance burden and ePHI integrity monitoring challenges across their multi-location operation with limited IT resources (78 employees). The patient portal indicates digital health infrastructure that requires file integrity monitoring to protect ePHI.","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like Patient portal live at Herald Christian Health Center; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around ephi integrity visibility and lean team coverage is usually where lean IT teams lose trail visibility.,"Running primary care, dental, behavioral health, and optometry across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between patient portal live and ephi integrity visibility and lean team coverage, I can see why agentless path coverage would matter here."
+Eric Serrano,Eric,Serrano,Jane Pauley Community Health Center,Director Of Information Technology,"IT and Cyber Security Professional with experience in Non-profit, Managed Services, Consulting","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like MyChart / OCHIN EHR system in use at Jane Pauley Community Health Center; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running primary care, dental, behavioral health, and pediatrics across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between mychart / ochin ehr system in use and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Rachel Herter,Rachel,Herter,Lawndale Christian Health Center,Chief Information Officer,"Experienced healthcare professional with deep knowledge in clinical practice, EHRs, IT infrastructure, and management","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like MyChart patient portal in use at Lawndale Christian Health Center; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running primary care, dental, behavioral health, and pharmacy across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between mychart patient portal in use and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."
+Timothy Smith,Timothy,Smith,Mallory Community Health Center,Cio,"Multi-site FQHC operations with distributed clinic locations (Lexington, Tchula, Durant, Greenwood) managing sensitive patient data across multiple facilities creates significant HIPAA compliance exposure and ePHI integrity monitoring challenges, particularly with athenahealth patient portal integration.","{{first_name}},
+
+{{personalization_line}}
+
+Reaching out because once cloud EHR, patient portal traffic, shared folders, and report exports are all in the mix, the hard part is keeping a clean change trail without agent sprawl.
+
+We stay agentless, watch the paths that matter, and send a webhook or email signal the moment a file drifts.
+
+If useful, I can send a short outline.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+Lean IT teams usually feel this when someone has to trace what changed, which interface moved it, and whether the export path is still clean.
+
+We keep watch on those paths so your team has cleaner trail data when review time comes.
+
+If useful, I can share a simple example.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+One practical angle here is the first path set to watch. For most clinic teams, that starts with record exports, shared folders, and reporting files.
+
+If useful, I can sketch the first path set I would start with.
+
+Arik Liberman
+Founder, Alertica","{{first_name}},
+
+{{personalization_line}}
+
+If this sits with another owner on your side, I can route a tighter note there. If it stays with you, I can send the short version.
+
+Arik Liberman
+Founder, Alertica",{quiet file drift|file change risk|ehr drift risk|path drift risk},{audit trail gap|record trail gap|control trail gap|change log gap},{shared path drift|clinic path gap|record path drift|site path drift},{quiet control gap|signal review gap|integrity review gap|record signal gap},"Saw signals like athenahealth EHR / patient portal usage at Mallory Community Health Center; for IT, that usually means more EHR paths, exports, and shared folders to keep under watch.",The pain point around multi-site record oversight and ephi integrity visibility is usually where lean IT teams lose trail visibility.,"Running dental and behavioral health across multiple sites usually means more record paths, exports, and shared folders to keep clean.","Between athenahealth ehr / patient portal usage and multi-site record oversight and ephi integrity visibility, I can see why agentless path coverage would matter here."

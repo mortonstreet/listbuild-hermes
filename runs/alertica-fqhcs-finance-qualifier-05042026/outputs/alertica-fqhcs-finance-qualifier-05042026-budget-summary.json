@@ -1,0 +1,22 @@
+{
+  "event_count": 0,
+  "events_path": "runs/alertica-fqhcs-finance-qualifier-05042026/raw/alertica-fqhcs-finance-qualifier-05042026-budget-events.jsonl",
+  "operation_totals": [],
+  "pricing": {
+    "firecrawl_credit_usd": 0.001,
+    "firecrawl_map_credits_per_request": 1.0,
+    "firecrawl_scrape_credits_per_page": 1.0,
+    "harvest_company_get_usd": 0.002,
+    "harvest_company_posts_usd": 0.002,
+    "harvest_full_profile_usd": 0.0032,
+    "harvest_main_profile_usd": 0.002,
+    "harvest_profile_posts_usd": 0.002,
+    "harvest_profile_with_email_usd": 0.01,
+    "serper_news_usd": 0.003,
+    "serper_search_usd": 0.003
+  },
+  "provider_totals": {},
+  "run_slug": "alertica-fqhcs-finance-qualifier-05042026",
+  "summary_path": "runs/alertica-fqhcs-finance-qualifier-05042026/outputs/alertica-fqhcs-finance-qualifier-05042026-budget-summary.json",
+  "total_cost_usd": 0.0
+}

@@ -1,0 +1,12 @@
+{
+  "run_slug": "alertica-fqhcs-mixed-sample-deterministic-v3-05062026",
+  "people_rows": 4,
+  "company_rows": 3,
+  "bucket_counts": {
+    "executive_owner": 1,
+    "finance": 1,
+    "operations": 1,
+    "technical_it": 1
+  },
+  "email_only": true
+}

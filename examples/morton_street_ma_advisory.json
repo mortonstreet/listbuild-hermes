@@ -1,0 +1,134 @@
+{
+  "template_name": "morton_street_ma_advisory",
+  "seller": {
+    "seller_name": "Morton Street",
+    "offer_name": "Outbound lead generation for M&A advisory firms",
+    "seller_pov": "Morton Street helps advisory firms win more mandates by solving add-on and bolt-on sourcing pain.",
+    "outcome_hypothesis": "The highest-value firms are the ones with visible specialization, constrained deal flow, and a hard time uncovering off-market or niche add-on targets."
+  },
+  "buyer": {
+    "segment_name": "M&A advisory firms",
+    "company_query": "M&A advisory firms with 2-10 headcount on LinkedIn",
+    "company_filters": [
+      "headcount 2-10",
+      "advisory",
+      "M&A",
+      "investment banking",
+      "United States"
+    ],
+    "pain_hypotheses": [
+      "The firm has specialization in a hard-to-source vertical.",
+      "The firm covers fragmented sectors where add-on discovery is labor intensive.",
+      "The firm needs stronger outbound origination or buyer-target mapping."
+    ],
+    "scoring_goal": "Rank firms by likely pain around target discovery, origination, and niche deal sourcing."
+  },
+  "roles": [
+    {
+      "segment_name": "Partner Leadership",
+      "target_titles": ["Managing Partner", "Partner", "Founder", "Managing Director"],
+      "purpose": "Economic buyer and strategy owner.",
+      "priority": 1
+    },
+    {
+      "segment_name": "Deal Execution",
+      "target_titles": ["Vice President", "Director", "Principal", "Associate"],
+      "purpose": "Daily deal operators who feel sourcing bottlenecks.",
+      "priority": 2
+    },
+    {
+      "segment_name": "Business Development",
+      "target_titles": ["Business Development", "Origination", "Relationship Manager"],
+      "purpose": "Directly exposed to pipeline and sourcing pressure.",
+      "priority": 3
+    }
+  ],
+  "research": {
+    "company_signal_buckets": [
+      "sector specialization",
+      "portfolio or transaction themes",
+      "geographic concentration",
+      "team composition",
+      "service lines",
+      "client proof",
+      "news and PR"
+    ],
+    "person_signal_buckets": [
+      "current title",
+      "tenure",
+      "recent activity",
+      "specialty focus",
+      "deal language",
+      "network indicators"
+    ],
+    "macro_signal_buckets": [
+      "sector M&A activity",
+      "industrial consolidation",
+      "valuation compression",
+      "credit environment",
+      "roll-up pressure",
+      "supply chain or tariff pressure"
+    ],
+    "scoring_factors": [
+      {
+        "name": "specialization_intensity",
+        "weight": 0.25,
+        "description": "Higher when the firm clearly focuses on sectors where add-on sourcing is non-trivial."
+      },
+      {
+        "name": "deal_sourcing_pain",
+        "weight": 0.35,
+        "description": "Higher when the account likely struggles to find proprietary or niche targets."
+      },
+      {
+        "name": "market_pressure",
+        "weight": 0.2,
+        "description": "Higher when macro conditions create urgency around pipeline quality or target finding."
+      },
+      {
+        "name": "reachability",
+        "weight": 0.2,
+        "description": "Higher when the firm has visible leadership, active contacts, and enough public evidence for personalized outbound."
+      }
+    ]
+  },
+  "cost_model": {
+    "unit_costs": {
+      "serper_search_usd": 0.003,
+      "firecrawl_credit_usd": 0.00083,
+      "firecrawl_scrape_credits_per_page": 1.0,
+      "firecrawl_crawl_credits_per_page": 1.0,
+      "firecrawl_search_credits_per_result": 1.0,
+      "harvest_company_call_usd": 0.01,
+      "harvest_people_search_call_usd": 0.01,
+      "harvest_profile_call_usd": 0.02,
+      "prospeo_search_page_usd": 0.039,
+      "prospeo_enrich_company_usd": 0.039,
+      "prospeo_enrich_person_usd": 0.039,
+      "million_verifier_email_usd": 0.000449,
+      "llm_analysis_per_company_usd": 0.015
+    },
+    "assumptions": {
+      "target_company_count": 100,
+      "seed_serper_queries": 12,
+      "serper_pages_per_seed_query": 2,
+      "harvest_company_calls_per_company": 1.0,
+      "domain_fallback_rate": 0.15,
+      "fallback_serper_queries_per_company": 1.0,
+      "role_segments_per_company": 3.0,
+      "serper_people_queries_per_role_segment": 2.0,
+      "average_people_per_company": 4.0,
+      "harvest_people_search_calls_per_company": 1.0,
+      "harvest_profile_calls_per_person": 1.0,
+      "prospeo_people_search_pages_per_company": 0.1,
+      "prospeo_enrich_person_rate": 0.05,
+      "firecrawl_crawl_pages_per_company": 15.0,
+      "firecrawl_followup_scrape_pages_per_company": 6.0,
+      "serper_followup_queries_per_company": 4.0,
+      "macro_branches_per_company": 2.0,
+      "serper_queries_per_macro_branch": 2.0,
+      "firecrawl_pages_per_macro_branch": 2.0,
+      "verification_rate_per_person": 1.0
+    }
+  }
+}

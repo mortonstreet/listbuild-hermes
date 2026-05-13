@@ -1,0 +1,12 @@
+{
+  "run_slug": "alertica-msp-mssp-copygen-stylecheck-05122026",
+  "people_rows": 20,
+  "company_rows": 5,
+  "bucket_counts": {
+    "leadership": 17,
+    "it_ops": 3
+  },
+  "email_only": false,
+  "campaign_profile": "msp_mssp",
+  "send_ready_csv": "/Users/mortonstreet/listbuildv2/runs/alertica-msp-mssp-copygen-stylecheck-05122026/outputs/alertica-msp-mssp-copygen-stylecheck-05122026-people-send-ready.csv"
+}

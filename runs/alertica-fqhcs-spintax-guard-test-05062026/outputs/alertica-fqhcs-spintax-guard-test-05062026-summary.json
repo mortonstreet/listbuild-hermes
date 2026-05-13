@@ -1,0 +1,10 @@
+{
+  "run_slug": "alertica-fqhcs-spintax-guard-test-05062026",
+  "people_rows": 25,
+  "company_rows": 23,
+  "bucket_counts": {
+    "technical_it": 18,
+    "finance": 7
+  },
+  "email_only": true
+}

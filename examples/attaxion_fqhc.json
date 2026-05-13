@@ -1,0 +1,127 @@
+{
+  "template_name": "attaxion_fqhc",
+  "seller": {
+    "seller_name": "Attaxion",
+    "offer_name": "FIM for federally qualified health clinics",
+    "seller_pov": "Attaxion reduces file integrity blind spots and compliance risk for regulated healthcare environments.",
+    "outcome_hypothesis": "The highest-value clinics are the ones with complex compliance exposure, small security teams, and visible operational risk."
+  },
+  "buyer": {
+    "segment_name": "Federally qualified health clinics",
+    "company_query": "federally qualified health clinics security leadership",
+    "company_filters": [
+      "FQHC",
+      "community health center",
+      "United States",
+      "regulated healthcare"
+    ],
+    "pain_hypotheses": [
+      "The clinic has compliance-driven pressure with limited security bandwidth.",
+      "The clinic runs legacy or distributed infrastructure that increases file integrity risk.",
+      "The clinic has recent cybersecurity or operational resilience signals."
+    ],
+    "scoring_goal": "Rank clinics by likely security exposure, compliance urgency, and ability to personalize the outreach."
+  },
+  "roles": [
+    {
+      "segment_name": "Security Leadership",
+      "target_titles": ["CISO", "Director of Security", "Security Manager", "IT Director"],
+      "purpose": "Primary technical buyer or influencer.",
+      "priority": 1
+    },
+    {
+      "segment_name": "Infrastructure Leadership",
+      "target_titles": ["Director of Infrastructure", "Systems Administrator", "Network Manager"],
+      "purpose": "Operational stakeholder who feels file integrity issues.",
+      "priority": 2
+    },
+    {
+      "segment_name": "Compliance Leadership",
+      "target_titles": ["Compliance Officer", "Risk Manager", "HIPAA Officer"],
+      "purpose": "Regulatory pain owner.",
+      "priority": 3
+    }
+  ],
+  "research": {
+    "company_signal_buckets": [
+      "locations and scale",
+      "security or IT staffing",
+      "public compliance language",
+      "technology clues",
+      "news and incidents"
+    ],
+    "person_signal_buckets": [
+      "security remit",
+      "operational ownership",
+      "public speaking or posting",
+      "tenure"
+    ],
+    "macro_signal_buckets": [
+      "healthcare cyber events",
+      "compliance changes",
+      "budget pressure",
+      "ransomware activity"
+    ],
+    "scoring_factors": [
+      {
+        "name": "compliance_pressure",
+        "weight": 0.35,
+        "description": "Higher when the account shows heavy regulatory or audit exposure."
+      },
+      {
+        "name": "security_complexity",
+        "weight": 0.3,
+        "description": "Higher when the environment appears distributed or difficult to monitor."
+      },
+      {
+        "name": "resource_constraint",
+        "weight": 0.2,
+        "description": "Higher when the likely team is small relative to the environment."
+      },
+      {
+        "name": "reachability",
+        "weight": 0.15,
+        "description": "Higher when there are accessible stakeholders and visible context."
+      }
+    ]
+  },
+  "cost_model": {
+    "unit_costs": {
+      "serper_search_usd": 0.003,
+      "firecrawl_credit_usd": 0.00083,
+      "firecrawl_scrape_credits_per_page": 1.0,
+      "firecrawl_crawl_credits_per_page": 1.0,
+      "firecrawl_search_credits_per_result": 1.0,
+      "harvest_company_call_usd": 0.01,
+      "harvest_people_search_call_usd": 0.01,
+      "harvest_profile_call_usd": 0.02,
+      "prospeo_search_page_usd": 0.039,
+      "prospeo_enrich_company_usd": 0.039,
+      "prospeo_enrich_person_usd": 0.039,
+      "million_verifier_email_usd": 0.000449,
+      "llm_analysis_per_company_usd": 0.015
+    },
+    "assumptions": {
+      "target_company_count": 100,
+      "seed_serper_queries": 10,
+      "serper_pages_per_seed_query": 2,
+      "harvest_company_calls_per_company": 1.0,
+      "domain_fallback_rate": 0.1,
+      "fallback_serper_queries_per_company": 1.0,
+      "role_segments_per_company": 3.0,
+      "serper_people_queries_per_role_segment": 1.5,
+      "average_people_per_company": 3.0,
+      "harvest_people_search_calls_per_company": 1.0,
+      "harvest_profile_calls_per_person": 1.0,
+      "prospeo_people_search_pages_per_company": 0.2,
+      "prospeo_enrich_person_rate": 0.1,
+      "firecrawl_crawl_pages_per_company": 12.0,
+      "firecrawl_followup_scrape_pages_per_company": 4.0,
+      "serper_followup_queries_per_company": 3.0,
+      "macro_branches_per_company": 1.5,
+      "serper_queries_per_macro_branch": 2.0,
+      "firecrawl_pages_per_macro_branch": 1.5,
+      "verification_rate_per_person": 1.0
+    }
+  }
+}
